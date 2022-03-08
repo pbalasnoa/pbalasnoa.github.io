@@ -34,6 +34,25 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
+      animation: {
+        spin_message: "spin_message 15s infinite",
+      },
+      keyframes: {
+        spin_message: {
+          "0%, 50%": {
+            transform: "translateY(0%)",
+          },
+          "56%": {
+            transform: "translateY(-50%)",
+          },
+          "57%, 93%": {
+            transform: "translateY(-100%)",
+          },
+          "94%": {
+            transform: "translateY(-50%)",
+          },
+        },
+      },
     },
   },
   plugins: [],
