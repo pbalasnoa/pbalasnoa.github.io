@@ -35,7 +35,7 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
       },
       animation: {
-        spin_message: "spin_message 15s infinite",
+        spin_message: "spin_message 10s infinite",
       },
       keyframes: {
         spin_message: {
