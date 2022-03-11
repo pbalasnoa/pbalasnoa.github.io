@@ -5,8 +5,12 @@ const successLoader = document.querySelector("#success_loader");
 const MAIL_URL = "https://formsubmit.co/ajax/edfd48625b8768058364c54bd3bd4eba";
 
 contactForm.addEventListener("submit", handleSubmit);
-successNotification.addEventListener("click", handleClosed);
-errorNotification.addEventListener("click", handleClosed);
+successNotification.addEventListener("click", (e) =>
+  thisNotification(e, "#success_notification")
+);
+errorNotification.addEventListener("click", (e) =>
+  thisNotification(e, "#error_notification")
+);
 
 function handleSubmit(event) {
   successLoader.classList.replace("hidden", "inline");
@@ -36,6 +40,11 @@ function handleSubmit(event) {
     });
 }
 
-function handleClosed(event) {
-  event.target.classList.toggle("hidden");
+function thisNotification(event, notification) {
+  let thisNotification = event.target.closest(notification);
+  handleClosed(thisNotification);
+}
+
+function handleClosed(notification) {
+  notification.classList.toggle("hidden");
 }
