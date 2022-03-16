@@ -35,21 +35,27 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
       },
       animation: {
-        spin_message: "spin_message 10s infinite",
+        spin_message: "spin_message 25s infinite",
       },
       keyframes: {
         spin_message: {
-          "0%, 50%": {
-            transform: "translateY(0%)",
+          "15%": {
+            transform: "translateY(-112%)",
           },
-          "56%": {
-            transform: "translateY(-50%)",
-          },
-          "57%, 93%": {
+          "30%": {
             transform: "translateY(-100%)",
           },
-          "94%": {
-            transform: "translateY(-50%)",
+          "40%": {
+            transform: "translateY(-212%)",
+          },
+          "55%": {
+            transform: "translateY(-200%)",
+          },
+          "65%": {
+            transform: "translateY(-312%)",
+          },
+          "80%": {
+            transform: "translateY(-300%)",
           },
         },
       },

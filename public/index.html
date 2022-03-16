@@ -18,50 +18,12 @@
   <body
     class="relative h-screen scrollbar-thin scrollbar-thumb-white bg-elephant-600 font-montserrat"
   >
-    <div class="hidden lg:inline">
-      <svg
-        class="fixed transform -z-40 rotate-[7deg] text-elephant-700/60 bottom-6 left-12"
-        width="100px"
-        height="100px"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="1"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="feather feather-triangle"
-      >
-        <path
-          d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"
-        ></path>
-      </svg>
-
-      <svg
-        class="fixed -z-30 transform rotate-[7deg] translate-x-6 -translate-y-2 text-casablanca-500/40 bottom-6 left-12"
-        width="100px"
-        height="100px"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="1"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="feather feather-triangle"
-      >
-        <path
-          d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"
-        ></path>
-      </svg>
-    </div>
-
     <main>
       <!-- I'm -->
       <section
         class="sm:min-h-screen md:w-[calc(100%_-_400px)] px-8 md:pl-11 pt-6 text-casablanca md:pt-12"
       >
-        <h1 class="text-5xl uppercase font-inter">
+        <h1 class="mb-2 text-5xl uppercase font-inter">
           paola andrea balasnoa uribe
         </h1>
         <h2
@@ -69,21 +31,31 @@
         >
           frontend developer
         </h2>
-        <article class="mt-8 mb-12">
+        <article class="mt-8 mb-12 md:flex md:flex-col md:justify-center">
           <div class="flex items-center mb-4 text-gray-400">
             <ion-icon name="glasses" class="pr-2 text-xl"></ion-icon>
             <h3 class="text-xl uppercase font-inter">Sobre mí</h3>
           </div>
-          <p class="text-white">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus,
-            est veniam libero excepturi quaerat debitis. Necessitatibus
-            repudiandae cum ipsam eligendi architecto, assumenda neque, nam odit
-            a iusto rerum, accusamus ex?
+          <p class="leading-loose text-white">
+            Actualmente, me encuentro en proceso de grado para obtener la
+            titulación como Ingeniera de Sistemas, llevo dos años desarrollando
+            proyectos personales y colaborando con otras personas en el área de
+            programación en ambientes JavaScript. Los proyectos realizados me
+            han permitido desarrollar mis habilidades de resolución de
+            problemas, flexibilidad para usar e integrar nuevas herramientas e
+            ir adquiriendo buenas prácticas mejorando la calidad de mi código.
+            <a
+              href="https://platzi.com/p/PaolaB/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline decoration-casablanca decoration-2"
+              >Descargar CV</a
+            >
           </p>
         </article>
         <!-- #notification -->
         <div
-          class="relative bottom-4 mx-auto py-4 text-lg text-white rounded-lg lg:right-[444px] lg:absolute lg:bottom-3 sm:max-w-max bg-elephant-400/30"
+          class="relative bottom-4 mx-auto py-4 text-lg text-white rounded-lg lg:right-[444px] lg:absolute lg:bottom-8 sm:max-w-max bg-elephant-400/30"
         >
           <div class="absolute -top-3.5 right-3">
             <ion-icon
@@ -109,7 +81,7 @@
 
       <!-- #skills -->
       <section
-        class="h-screen px-8 pt-12 md:top-0 md:right-11 md:fixed md:max-w-fit bg-elephant-500 md:bg-elephant-700/50"
+        class="h-screen px-8 pt-12 md:top-0 md:right-11 md:fixed md:w-[356px] bg-elephant-500 md:bg-elephant-700/50"
       >
         <div class="flex items-center mb-4 text-gray-400">
           <ion-icon name="extension-puzzle" class="pr-2 text-xl"></ion-icon>
@@ -117,7 +89,7 @@
         </div>
         <article class="pl-3 mb-4">
           <h4 class="pb-3 uppercase text-casablanca font-inter">tecnologías</h4>
-          <ul class="text-white columns-2">
+          <ul class="text-white columns-2 sm:mx-auto sm:w-full">
             <li class="flex pb-2 uppercase">
               <svg
                 class="w-5 fill-white"
@@ -318,36 +290,12 @@
           <h4 class="pb-3 uppercase text-casablanca font-inter">
             habilidades Blandas
           </h4>
-          <ul class="text-white">
-            <li class="flex items-center pb-4 cursor-pointer">
-              <ion-icon
-                name="caret-down-outline"
-                class="pr-2 text-lg"
-              ></ion-icon>
-              Mediadora
-            </li>
-            <li class="flex items-center pb-4 cursor-pointer">
-              <ion-icon
-                name="caret-down-outline"
-                class="pr-2 text-lg"
-              ></ion-icon>
-              Colaboradora
-            </li>
-            <li class="flex items-center pb-4 cursor-pointer">
-              <ion-icon
-                name="caret-down-outline"
-                class="pr-2 text-lg"
-              ></ion-icon>
-              Adaptación rápida al cambio
-            </li>
-            <li class="flex items-center pb-4 cursor-pointer">
-              <ion-icon
-                name="caret-down-outline"
-                class="pr-2 text-lg"
-              ></ion-icon>
-              Resolutiva
-            </li>
-          </ul>
+          <p class="text-white leading-loose md:leading-tight">
+            Soy una persona práctica, un poco individualista, pero crezco mucho
+            en equipo, tengo buena comunicación, soy colaborativa y excelente
+            mediadora. No solo es limitarse a programar, es comprometerse con el
+            proyecto.
+          </p>
         </article>
       </section>
 
@@ -365,7 +313,6 @@
             <li class="inline pr-2 uppercase">css</li>
             <li class="inline pr-2">Date-fns</li>
             <li class="inline pr-2">Firebase</li>
-            <li class="inline pr-2 uppercase">html</li>
             <li class="inline pr-2">JavaScript</li>
             <li class="inline pr-2">Node</li>
             <li class="inline pr-2">React</li>
@@ -377,7 +324,6 @@
               <source
                 srcset="./img/appTaskDesk.webp"
                 media="(min-width:640px)"
-                type="image/wepb"
               />
               <img
                 src="./img/appTask.webp"
@@ -390,19 +336,19 @@
               tareas y se agregan nuevas
             </figcaption>
           </figure>
-          <p class="mt-2 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-            sunt asperiores architecto impedit, quisquam doloremque expedita
-            odit necessitatibus. Recusandae eius optio vitae quam
-            exercitationem, corrupti nam consequuntur harum reiciendis dolor!
-            <span>More details</span>
+          <p class="leading-loose mt-2 text-white">
+            Web que funciona como un To Do. La motivación en crear dicho
+            proyecto está en aprender y practicar el uso de herramientas como
+            Firebase, además el diseño y las funcionalidades están inspiradas en
+            la app Task de Google. Te invito a ver más detalles del proyecto
+            dando clic en el botón ver código.
           </p>
-          <div class="flex flex-wrap justify-around mt-4 font-inter">
+          <div class="flex flex-wrap justify-end mt-4 font-inter">
             <a
               href="https://github.com/pbalasnoa/to-do-list"
               target="_blank"
               rel="noopener noreferrer"
-              class="px-4 py-2 mb-3 tracking-wider text-white uppercase border-2 rounded-lg cursor-pointer"
+              class="px-4 mr-4 py-2 mb-3 tracking-wider text-white uppercase border-2 rounded-lg cursor-pointer"
             >
               Ver código
             </a>
@@ -421,7 +367,6 @@
           <h4 class="mb-4 text-casablanca font-inter">IMG_bank</h4>
           <ul class="inline-block mb-2 text-sm text-gray-500">
             <li class="inline pr-2 uppercase">css</li>
-            <li class="inline pr-2 uppercase">html</li>
             <li class="inline pr-2">JavaScript</li>
             <li class="inline pr-2">Node</li>
             <li class="inline pr-2">React</li>
@@ -436,8 +381,7 @@
             <picture class="aspect-square sm:aspect-video">
               <source
                 srcset="./img/IMG_bank_desk.webp"
-                media="(min-width:640px)"
-                type="image/wepb" />
+                media="(min-width:640px)" />
               <img
                 src="./img/IMG_bank.webp"
                 loading="lazy"
@@ -448,21 +392,21 @@
               tendencias, categorias o palabras claves.
             </figcaption>
           </figure>
-          <p class="mt-2 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-            sunt asperiores architecto impedit, quisquam doloremque expedita
-            odit necessitatibus. Recusandae eius optio vitae quam
-            exercitationem, corrupti nam consequuntur harum reiciendis dolor!
-            <span>More details</span>
+          <p class="leading-loose mt-2 text-white">
+            Web que funciona como un buscador de imágenes. Diseñar esta página
+            fue bastante satisfactorio porque se logró una interfaz sencilla,
+            limpia, minimalista y agradable para el usuario, también se hace uso
+            de la JSON API de Unsplash para el desarrollo de la app, en
+            consecuencia se practica el consumo de una API REST y el uso de la
+            API Fetch. Te invito a ver más detalles del proyecto dando clic en
+            el botón ver código.
           </p>
-          <div
-            class="flex flex-wrap items-center justify-around mt-4 font-inter"
-          >
+          <div class="flex flex-wrap items-center justify-end mt-4 font-inter">
             <a
               href="https://github.com/pbalasnoa/image-bank"
               target="_blank"
               rel="noopener noreferrer"
-              class="px-4 py-2 mb-3 tracking-wider text-white uppercase border-2 rounded-lg cursor-pointer"
+              class="px-4 py-2 mb-3 mr-4 tracking-wider text-white uppercase border-2 rounded-lg cursor-pointer"
             >
               Ver código
             </a>
@@ -480,7 +424,7 @@
         <article>
           <h4 class="mb-4 text-casablanca font-inter">Maquetados</h4>
           <ul class="inline-block mb-2 text-sm text-gray-500">
-            <li class="inline pr-2 uppercase">css</li>
+            <li class="inline pr-2">Sass</li>
             <li class="inline pr-2">Firebase</li>
             <li class="inline pr-2 uppercase">html</li>
             <li class="inline pr-2">JavaScript</li>
@@ -491,8 +435,7 @@
             <picture class="aspect-square sm:aspect-video">
               <source
                 srcset="./img/maquetados_desk.webp"
-                media="(min-width:640px)"
-                type="image/wepb" />
+                media="(min-width:640px)" />
               <img
                 src="./img/maquetados.webp"
                 loading="lazy"
@@ -502,21 +445,19 @@
               Página web con diferentes ejercicios de maquetación
             </figcaption>
           </figure>
-          <p class="mt-2 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-            sunt asperiores architecto impedit, quisquam doloremque expedita
-            odit necessitatibus. Recusandae eius optio vitae quam
-            exercitationem, corrupti nam consequuntur harum reiciendis dolor!
-            <span>More details</span>
+          <p class="leading-loose mt-2 text-white">
+            Esta web funciona como un espacio para practicar HTML, CSS Y un poco
+            de JS Vanilla. La idea principal de este proyecto es ir realizando
+            diversos tipos de componentes y layouts con sus correspondientes
+            niveles de complejidad al momento de maquetar. Te invito a ver más
+            detalles del proyecto dando clic en el botón ver código.
           </p>
-          <div
-            class="flex flex-wrap items-center justify-around mt-4 font-inter"
-          >
+          <div class="flex flex-wrap items-center justify-end mt-4 font-inter">
             <a
               href="https://github.com/pbalasnoa/maquetados"
               target="_blank"
               rel="noopener noreferrer"
-              class="px-4 py-2 mb-3 tracking-wider text-white uppercase border-2 rounded-lg cursor-pointer"
+              class="px-4 py-2 mb-3 mr-4 tracking-wider text-white uppercase border-2 rounded-lg cursor-pointer"
             >
               Ver código
             </a>
@@ -527,6 +468,54 @@
               class="px-4 py-2 mb-3 tracking-wider uppercase border-2 rounded-lg shadow-md cursor-pointer border-casablanca bg-casablanca text-elephant-600 shadow-casablanca-600/20"
             >
               Ver maquetados
+            </a>
+          </div>
+        </article>
+        <!-- #Nova -->
+        <article>
+          <h4 class="mb-4 text-casablanca font-inter">Nova</h4>
+          <ul class="inline-block mb-2 text-sm text-gray-500">
+            <li class="inline pr-2">Axios</li>
+            <li class="inline pr-2 uppercase">css</li>
+            <li class="inline pr-2">date-fns</li>
+            <li class="inline pr-2">FullCalendar</li>
+            <li class="inline pr-2">Heroku</li>
+            <li class="inline pr-2">React Hook Form</li>
+            <li class="inline pr-2">JavaScript</li>
+            <li class="inline pr-2">Material-UI</li>
+            <li class="inline pr-2">React Router</li>
+            <li class="inline pr-2">Yup</li>
+          </ul>
+          <figure class="flex flex-col items-center">
+            <picture class="aspect-square sm:aspect-video">
+              <img
+                src="./img/Nova.gif"
+                loading="lazy"
+                alt="Proyecto maquetados"
+            /></picture>
+            <figcaption class="mt-2 text-xs text-gray-500">
+              Página web con diferentes ejercicios de maquetación
+            </figcaption>
+          </figure>
+          <p class="leading-loose mt-2 text-white">
+            Es un sistema de gestión de citas y control de historia clínica.
+            Este proyecto ha sido uno de los más demandantes debido a su
+            complejidad y que durante su desarrollo se aprendió a utilizar
+            varias librerías. Algunas de estas librerías no funcionaron como se
+            esperaban, lo que conllevo a buscar otras alternativas e iterar el
+            proyecto de forma ágil. Al ser un proyecto pago no tengo
+            autorización para dar acceso al sistema, pero si de mostrar su
+            código. Te invito a ver más detalles del proyecto dando clic en el
+            botón ver código.
+          </p>
+          <div class="flex flex-wrap items-center justify-end mt-4 font-inter">
+            <a
+              href="https://github.com/pbalasnoa/Nova"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="px-4 py-2 mb-3 tracking-wider text-white uppercase border-2 rounded-lg cursor-pointer"
+            >
+              Ver código
             </a>
           </div>
         </article>
@@ -697,13 +686,25 @@
       <ion-icon name="code-slash" class="text-2xl text-elephant-600"></ion-icon>
       <div class="h-full overflow-hidden">
         <span
-          class="flex items-center h-full pl-2 font-bold animate-spin_message text-elephant-600"
-          >¡SÍ!, contrátame.</span
+          class="flex items-center h-full pl-2 font-mono font-bold animate-spin_message text-elephant-600"
         >
+          ¡SÍ!, contrátame 😃.
+        </span>
         <span
           class="flex items-center h-full pl-2 font-mono font-bold animate-spin_message text-elephant-600"
-          >Trae más café ☕ y galletas 🍪, por favor.</span
         >
+          Tengo el perfil adecuado para aportar valor a la empresa
+        </span>
+        <span
+          class="flex items-center h-full pl-2 font-mono font-bold animate-spin_message text-elephant-600"
+        >
+          No le temo a ningún reto cuando me respalda un buen equipo
+        </span>
+        <span
+          class="flex items-center h-full pl-2 font-mono font-bold animate-spin_message text-elephant-600"
+        >
+          Trae más café ☕ y galletas 🍪, por favor.
+        </span>
       </div>
     </footer>
 
