@@ -2,7 +2,7 @@ const contactForm = document.querySelector("#contact");
 const successNotification = document.querySelector("#success_notification");
 const errorNotification = document.querySelector("#error_notification");
 const successLoader = document.querySelector("#success_loader");
-const MAIL_URL = "https://formsubmit.co/ajax/edfd48625b8768058364c54bd3bd4eba";
+const MAIL_URL = "https://formsubmit.co/ajax/323c0c7ba338f5cf39db0998060a3a60 ";
 
 contactForm.addEventListener("submit", handleSubmit);
 successNotification.addEventListener("click", (e) =>
